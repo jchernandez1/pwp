@@ -8,52 +8,65 @@
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./style.css">
-    <title>bootstrap-challenge</title>
+    <title>pwp</title>
 <body>
+
+
 
 <div>
     <h1>Los Huaraches De Villa</h1>
+<!--    <<img src="villa.jpg" class="card-img-center" alt="villa" id="villa">-->
 </div>
-<div class="heater">
-    <img src="logo1.jpg" class="card-img-right" alt="logo" id="logo">
-    <h2 class="about-us">About Us:</h2>
-    <p>As a native from Mexico City, raise in California.
-        I have always lived around small food business, and
-        love the joy they brought to me and my peers. That’s
-        why my family has decided to bring the same JOY!  to
-        Albuquerque New Mexico a taste of the southern borders.
-        We have infuse Michuancan and Mexico City food cuisine.
-        Los Huaraches de Villa is a food truck that provides
-        Mexico City street food, such as Tacos de Canasta, Huaraches,
-        Panbasos, Tortas, Tacos and Birria Michuancan style.</p>
+<div class="jumbotron jumbotron-fluid">
+    <div class="heater">
+        <div class="float-left">
+            <img src="logo1.jpg" class="card-img-left" alt="logo" id="logo">
+            <h2 class="about-us">About Us:</h2>
+                <p class="about-us">As a native from Mexico City, raise in California.
+                I have always lived around small food business, and
+                love the joy they brought to me and my peers. That’s
+                why my family has decided to bring the same JOY!  to
+                Albuquerque New Mexico a taste of the southern borders.
+                We have infuse Michuancan and Mexico City food cuisine.
+                Los Huaraches de Villa is a food truck that provides
+                Mexico City street food, such as Tacos de Canasta, Huaraches,
+                Panbasos, Tortas, Tacos and Birria Michuancan style.</p>
+        </div>
+    </div>
 </div>
 
 
-<div class="container">
+
+<div class="modal-body">
+    <button type="button" class="btn btn-primary" data-toggle="modal-body" data-target="#Step1" data-whatever="Step-1">Chose Your Product</button>
+    <button type="button" class="btn btn-primary" data-toggle="modal-body" data-target="#Step2" data-whatever="step-2">Chose Your Meat</button>
+    <button type="button" class="btn btn-primary" data-toggle="modal-body" data-target="#Step3" data-whatever="step-3">Modified Your Food</button>
+</div>
+<div class="modal-body">
     <div class="Menu">
-        <h2 class="Step1">Chose Product</h2>
+        <h2 class="Step-1">Chose Your Product</h2>
         <ul class="food-Product">
-            <li class="product">Tacos</li>
-            <li class="product">Huaraches</li>
-            <li class="product">Tortas</li>
-            <li class="product">Pambasos</li>
-            <li class="product">Burritos</li>
-            <li class="product">Quesadillas</li>
+            <li class="tacos">Tacos</li>
+            <li class="huaraches">Huaraches</li>
+            <li class="tortas">Tortas</li>
+            <li class="pambasos">Pambasos</li>
+            <li class="burritos">Burritos</li>
+            <li class="quesadillas">Quesadillas</li>
         </ul>
-        <h2 class="step2">Chose Your Meat</h2>
+        <h2 class="step-2">Chose Your Meat</h2>
         <ul class="meat-product">
-            <li class="meat">Asada - Steak</li>
-            <li class="meat">Al Pastor - Marinated Pork</li>
-            <li class="meat">Chorizo </li>
-            <li class="meat">Barria - Slow Cook Beef</li>
-            <li class="meat">Milanesa - Marinated Pork</li>
-            <li class="meat">Pierna - Ham</li>
+            <li class="asada">Asada - Steak</li>
+            <li class="al pastor">Al Pastor - Marinated Pork</li>
+            <li class="chorizo">Chorizo </li>
+            <li class="birria">Barria - Slow Cook Beef</li>
+            <li class="milanesa">Milanesa - Marinated Pork</li>
+            <li class="pierna">Pierna - Ham</li>
         </ul>
-        <h2 class="step3">Modified Your Food</h2>
+        <h2 class="step-3">Modified Your Food</h2>
         <ul class="modified-product"></ul>
-        <li class="modified">Onion</li>
-        <li class="modified">Cilantro</li>
-        <li class="modified">Salsa</li>
+            <li class="onion">Onion</li>
+            <li class="cilantro">Cilantro</li>
+            <li class="salsa">Salsa</li>
     </div>
     <div class="container">
 
