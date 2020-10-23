@@ -1,51 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>pwp</title>
+
+</head>
 <body>
-
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
 
 <div>
 
-    <h1>Los Huaraches De Villa</h1>
+    <h1>Los Huaraches De Villa Food Truck</h1>
 
-<!--    <<img src="villa.jpg" class="card-img-center" alt="villa" id="villa">-->
 </div>
-<div class="jumbotron jumbotron-fluid">
-    <div class="heater">
-        <div class="float-left">
-            <img src="logo1.jpg" class="card-img-left" alt="logo" id="logo">
-        </div>
-            <div>
-            <h2 class="about-us">About Us:</h2>
-                <p class="about-us">As a native from Mexico City, raise in California.
-                I have always lived around small food business, and
-                love the joy they brought to me and my peers. That’s
-                why my family has decided to bring the same JOY!  to
-                Albuquerque New Mexico a taste of the southern borders.
-                We have infuse Michuancan and Mexico City food cuisine.
-                Los Huaraches de Villa is a food truck that provides
-                Mexico City street food, such as Tacos de Canasta, Huaraches,
-                Panbasos, Tortas, Tacos and Birria Michuancan style.</p>
-        </div>
+
+
+<!--about me information-->
+
+<div class=" jumbotron jumbotron-fluid">
+    <div class="float-left">
+        <img src="logo1.jpg" class="card-img-left" alt="logo">
+    </div>
+        <h2 class="about-us">About Us:</h2>
+        <p>As a native from Mexico City, raise in California.
+            I have always lived around small food business, and
+            love the joy they brought to me and my peers. That’s
+            why my family has decided to bring the same JOY!  to
+            Albuquerque New Mexico a taste of the southern borders.
+            We have infuse Michuancan and Mexico City food cuisine.
+            Los Huaraches de Villa is a food truck that provides
+            Mexico City street food, such as Tacos de Canasta, Huaraches,
+            Panbasos, Tortas, Tacos and Birria Michuacan style.</p>
+</div>
+<!--carousel pictures of special foods for the week-->
+
+<!--explanation of product-->
+
+<div class="row">
+    <div class="col-md text-white bg-success mb-3" id="step1">
+        <h2>Step 1: Chose from the menu</h2>
+        <ul>
+            <li><b>Tacos:</b> Come with your choice of meat, Cilantro and Onion.</li>
+            <li><b>Huaraches:</b> Come with your choice of meat, beans, lettuce, sour cream, and cheese.</li>
+            <li><b>Tortas:</b> Comes with your choice of meat, beans, lettuce, tomato, avocado, and toasted Oxaca cheese.</li>
+            <li><b>Pambasos:</b> Comes with your choice of meat, lettuce, sour cream, and cheese.</li>
+            <li><b>Burritos:</b> Comes with your choice of meat, beans, lettuce, and cheese.</li>
+            <li><b>Quesadilla:</b> Comes with your choice of meat, cheese and a side salad with avocado, tomato.</li>
+        </ul>
+    </div>
+
+    <div class="col-md bg-light mb-3" id="step2">
+        <h2>Step 2: Chose the type of meat you like</h2>
+        <ul>
+            <li><b>Carne Asada - Steak</b></li>
+                <p>Carne asada is sirloin steak sliced, cooked with a marinade and some searing to impart a charred flavor.</p>
+            <li><b>Al Pastor - Marinated Pork</b></li>
+                <p>Al pastor is a tender slice of pork cut in small pieces. its pork is  marinate with spices and other ingredients.</p>
+            <li><b>Home made Chorizo</b></li>
+                <p>Chorizo is a mixture of chopped pork meat and spices, which produce its characteristic deep red color.</p>
+            <li><b>Birria - Slow Cook Beef</b></li>
+                <p></p>
+            <li><b>Milanesa - Breaded Steak</b></li>
+                <p></p>
+            <li><b>Pierna o Jamon - Ham</b></li>
+                <p></p>
+        </ul>
+    </div>
+
+    <div class="col-md text-white bg-danger mb-3" id="step3">
+        <h2>Step 3: Chose your toppings</h2>
+        <ul>
+            <li class="onion">Onion</li>
+            <li class="cilantro">Cilantro</li>
+            <li class="tomato">Tomato</li>
+            <li class="lettuce">Lettuce</li>
+            <li class="cheese">Cheese</li>
+            <li class="salsa">Red, Green salsa and Guacamole</li>
+        </ul>
     </div>
 </div>
 
-
-<div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Menu
+<!-- Dropdowns for product-->
+<div class="container">
+<div class="btn-group">
+    <button class="btn btn-outline-success btn-md dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Step 1: Menu
     </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <div class="dropdown-menu  bg-success mb-3" aria-labelledby="dropdownMenuButton">
         <a class="dropdown-item" href="#tacos">Tacos</a>
         <a class="dropdown-item" href="#huaraches">Huaraches</a>
         <a class="dropdown-item" href="#tortas">Tortas</a>
@@ -55,88 +109,51 @@
     </div>
 </div>
 
-<div class="row">
-    <div class="column">
-        <h2>Step 1: Chose from the menu</h2>
-        <ul>
-            <li>Tacos: Come with your choice of meat, Cilantro and Onion.</li>
-            <li>Huaraches: Come with your choice of meat, beans, lettuce, sour cream, and cheese.</li>
-            <li>Tortas: Comes with your choice of meat, beans, lettuce, tomato, avocado, and toasted Oxaca cheese.</li>
-            <li>Pambasos: Comes with your choice of meat, lettuce, sour cream, and cheese.</li>
-            <li>Burritos: Comes with your choice of meat, beans, lettuce, and cheese.</li>
-            <li>Quesadilla: Comes with your choice of meat, cheese and a side salad with avocado, tomato.</li>
-        </ul>
-    </div>
+<div class="btn-group">
 
-    <div class="column">
-        <h2>Step 2: Chose the type of meat you like</h2>
-        <ul>
-            <li>Asada - Steak</li>
-            <li>Al Pastor - Marinated Pork</li>
-            <li>Chorizo</li>
-            <li>Barria - Slow Cook Beef</li>
-            <li>Milanesa - Breaded Steak</li>
-            <li>Pierna - Ham</li>
-        </ul>
-    </div>
-
-    <div class="column">
-        <h2>Step 3: Modified your toppings</h2>
-        <ul>
-            <li class="onion">Onion</li>
-            <li class="cilantro">Cilantro</li>
-            <li class="salsa">Salsa</li>
-        </ul>
-    </div>
-</div>
-
-
-
-
-<div class="modal-body">
-    <div class="Menu">
-        <h2 class="Step-1">Chose Your Product</h2>
-        <ul class="food-Product">
-            <li class="tacos">Tacos</li>
-            <li class="huaraches">Huaraches</li>
-            <li class="tortas">Tortas</li>
-            <li class="pambasos">Pambasos</li>
-            <li class="burritos">Burritos</li>
-            <li class="quesadillas">Quesadillas</li>
-        </ul>
-        <h2 class="step-2">Chose Your Meat</h2>
-        <ul class="meat-product">
-            <li class="asada">Asada - Steak</li>
-            <li class="al pastor">Al Pastor - Marinated Pork</li>
-            <li class="chorizo">Chorizo </li>
-            <li class="birria">Barria - Slow Cook Beef</li>
-            <li class="milanesa">Milanesa - Marinated Pork</li>
-            <li class="pierna">Pierna - Ham</li>
-        </ul>
-        <h2 class="step-3">Modified Your Food</h2>
-        <ul class="modified-product"></ul>
-            <li class="onion">Onion</li>
-            <li class="cilantro">Cilantro</li>
-            <li class="salsa">Salsa</li>
-    </div>
-    <div class="container">
-    <iput></iput>
-    </div>
-</div>
-<div class="container">
+        <button class="btn btn-outline-light btn-md dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Step 2: Meats
+        </button>
+        <div class="dropdown-menu bg-light mb-3" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#asada">Asada - Stake</a>
+            <a class="dropdown-item" href="#al-pastor">Al pastor - Marinated Pork</a>
+            <a class="dropdown-item" href="#chorizo">Chorizo</a>
+            <a class="dropdown-item" href="#birria">Birria - Slow Cook Beef</a>
+            <a class="dropdown-item" href="#milanesa">Milanesa - Breaded Steak</a>
+            <a class="dropdown-item" href="#jamon">Pierna - Ham</a>
+        </div>
 
 </div>
+<div class="btn-group">
 
+        <button class="btn btn-outline-danger btn-md dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Step 3: Toppings
+        </button>
+        <div class="dropdown-menu bg-danger mb-3" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#onion">Onion</a>
+            <a class="dropdown-item" href="#cilantro">Cilantro</a>
+            <a class="dropdown-item" href="#lettuce">Lettuce</a>
+            <a class="dropdown-item" href="#tomato">Tomato</a>
+            <a class="dropdown-item" href="#cheese">Cheese</a>
+            <a class="dropdown-item" href="#salsa">Red, Green salsa and Guacamole</a>
+        </div>
+</div>
+</div>
+<!--Maps and Location-->
+<sections class="column">
+    <img src="map.jpg" alt="map" id="map">
+    <div class="column">
+    <div>
+        <p>1127 University Blvd NE</p>
+        <p>Albuquerque, NM 87102</p>
+    </div>
+    </div>
+</sections>
 
+<!--email -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
-</body>
+<!--social media-->
+
+<!--footing-->
+
 </html>
