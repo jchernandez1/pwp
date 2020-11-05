@@ -40,6 +40,16 @@ h1{
     width: 300px;
     height: 250px;
 }
+/*!*================information of product================*!*/
+#menu{
+    margin-top: .5em;
+}
+.col{
+    padding: 1em;
+}
+li{
+    text-shadow: 0 -1px 4px #ffffff, 0 -2px 10px #92e53c, 0 -10px 20px #47941b, 0 -18px 40px #030503;
+}
 /*!*================logo================*!*/
 #logo {
     width: 200px;
@@ -47,44 +57,20 @@ h1{
     margin:5px;
     display: flex;
     justify-content:center;
-    webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 50px 2px 0px 0px rgba(0,0,0,0);
-    box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 50px 2px 0px 0px rgba(0,0,0,0);
-    background: #ECEFCF;
+    webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
 }
 /*!*================about me================*!*/
 .jumbotron-fluid {
     border-radius: 5px;
     border: 2px solid lightcoral;
-    background: linear-gradient(-50deg, #ca011d, #a5a4a4, #204701);
-    color:whitesmoke;
+    background: linear-gradient(-90deg, #ca011d, #a5a4a4, #204701);
+    color: whitesmoke;
+    margin: 1em 1em;
 }
-/*!*================carousel with picture================*!*/
-#carousel{
-    margin-top: 5em;
-}
-#birria-taco  {
-    width: 300px;
-    height: 250px;
-}
-#canasta{
-    width: 300px;
-    height: 250px;
-}
-#huarache{
-    width: 300px;
-    height: 250px;
-}
-#asada-tacos{
-    width: 300px;
-    height: 250px;
-}
-/*!*================information of product================*!*/
-#menu{
-    margin-top: .5em;
-
-}
-.col{
-    padding: 1em;
+.about-us{
+    margin: 0em 1em;
 }
 /*================dropdown menu================*/
 h2 {
@@ -94,29 +80,29 @@ h2 {
     color: #004500;
 }
 #step3{
+    color: black;
+}
+#step3{
     color: #8b0000;
 }
 /*================maps and location================*/
 #map{
-    margin-top:4em;
-    margin-bottom:1em ;
+    margin:4em 0em 1em 0em;
 
-    padding:1em;
     width: 370px;
     height: 350px;
-    webkit-box-shadow: #193500 0 -1px 4px, #26ff00 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 50px 2px 0px 0px rgba(0,0,0,0);
-    box-shadow: #092f01 0 -1px 4px, #37ff00 0 -2px 10px, #43ff0d 0 -10px 20px, #8bff62 0 -18px 40px, 50px 2px 0px 0px rgba(0,0,0,0);
-    background: #ECEFCF;
+    webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
 }
 #map2{
-    margin-top: 3em;
-    margin-bottom:1em ;
-    padding:1em;
+    margin: 2em 0em 1em 0em;
+
     width: 370px;
     height: 350px;
-    webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 50px 2px 0px 0px rgba(0,0,0,0);
-    box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 50px 2px 0px 0px rgba(0,0,0,0);
-    background: #ECEFCF;
+    webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
 }
 /*================ contact information ================*/
 .form-wrapper {
@@ -127,11 +113,10 @@ label {
     margin: 10px 0 5px 0;
 }
 button {
-    /*background-color: lime;*/
     padding: 0.5rem 1.5rem;
     font-weight: bold;
     font-size: 1rem;
-    /*border: none;*/
+
 }
 /*================ footer ================*/
 footer {
@@ -140,14 +125,11 @@ footer {
     color:  black;
     background: linear-gradient(-50deg, #ca011d, #faf7f7, #204701);
 }
-b{
-    text-shadow: 0 -1px 4px #ff0000, 0 -2px 10px #fafaf8, 0 -10px 20px #47941b, 0 -18px 40px #04ff14;
-}
+
 /*================ background color ================*/
 body{
     background: linear-gradient(-50deg, #8B0000, #d0c4c4, #204701);
 }
-
 
 
 
