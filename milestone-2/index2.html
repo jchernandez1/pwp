@@ -142,41 +142,35 @@
         <div class="col-sm mb-4" id="step1">
             <h2>Step 1: Chose from the menu</h2>
             <ul>
-                <b>
-                    <li>Tacos</li>
-                    <li>Tacos de Canasta</li>
-                    <li>Huaraches</li>
-                    <li>Tortas</li>
-                    <li>Pambasos/li>
-                    <li>Burritos</li>
-                    <li>Quesadilla</li>
-                </b>
+                <li><b>Tacos</b></li>
+                <li><b>Tacos de Canasta</b></li>
+                <li><b>Huaraches</b></li>
+                <li><b>Tortas</b></li>
+                <li><b>Pambasos</b>
+                <li><b>Burritos</b></li>
+                <li><b>Quesadilla</b></li>
             </ul>
         </div>
         <div class="col-sm mb-4" id="step2">
             <h2>Step 2: Chose the type of meat</h2>
             <ul>
-                <b>
-                    <li>Carne Asada - Steak</li>
-                    <li>Al Pastor - Marinated Pork</li>
-                    <li>Home made Chorizo</li>
-                    <li>Birria - Slow Cook Beef</li>
-                    <li>Milanesa - Breaded Steak</li>
-                    <li>Pierna o Jamon - Ham</li>
-                </b>
+                <li><b>Carne Asada - Steak</b></li>
+                <li><b>Al Pastor - Marinated Pork</b></li>
+                <li><b>Home made Chorizo</b></li>
+                <li><b>Birria - Slow Cook Beef</b></li>
+                <li><b>Milanesa - Breaded Steak</b></li>
+                <li><b>Pierna o Jamon - Ham</b></li>
             </ul>
         </div>
         <div class="col-sm mb-4" id="step3">
             <h2>Step 3: Chose your toppings</h2>
             <ul>
-                <b>
-                    <li class="onion">Onion</li>
-                    <li class="cilantro">Cilantro</li>
-                    <li class="tomato">Tomato</li>
-                    <li class="lettuce">Lettuce</li>
-                    <li class="cheese">Cheese</li>
-                    <li class="salsa">Red, Green salsa and Guacamole</li>
-                </b>
+                <li><b>Onion</b></li>
+                <li><b>Cilantro</b></li>
+                <li><b>Tomato</b></li>
+                <li><b>Lettuce</b></li>
+                <li><b>Cheese</b></li>
+                <li><b>Red, Green salsa and Guacamole</b></li>
             </ul>
         </div>
     </div>
@@ -186,7 +180,7 @@
     <img src="logo1.jpg" id="logo">
 </div>
 <!--================about me information================-->
-<div class="container" id="about us">
+<div class="container" id="about-us">
     <div class="column row">
         <div class="jumbotron jumbotron-fluid">
             <h5>About Us:</h5>
@@ -206,71 +200,34 @@
 
 <div class="d-flex justify-content-around">
     <section>
-    <!-- Button trigger modal -->
-    <button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop">
-        Meat Types
-    </button>
-
-    <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" aria-labelledby="staticBackdropLabel" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Meat Types</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-<!--                    <p><b>Asada - Stake:</b> Carne asada is sirloin steak sliced, cooked with a-->
-<!--                        marinade and some searing to impart a charred flavor.</p>-->
-<!--                    <p><b>Al pastor - Marinated Pork:</b>Al pastor is a tender slice of pork cut-->
-<!--                        in small pieces. its pork is marinate with spices and other ingredients.</p>-->
-<!--                    <p><b>Chorizo:</b>Chorizo is a home made chorizo,-->
-<!--                        mixture of chopped pork meat and spices.</p>-->
-<!--                    <p><b>Birria - Slow Cook Beef:</b>Birria is slow-->
-<!--                        cook beef with chile and spices.</p>-->
-<!--                    <p><b>Milanesa - Breaded Steak:</b>Milanesa is a-->
-<!--                        breaded steak with spices.</p>-->
-<!--                    <p><b>Pierna - Ham:</b>Pierna is smoke ham.</p>-->
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    </section>
-    <section>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
-        Menu
-    </button>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#meat">
+            Meat Types
+        </button>
 
         <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal fade" id="meat" data-backdrop="static" data-keyboard="false"
+             aria-labelledby="staticBackdropLabel" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Menu</h5>
+                        <h5 class="modal-title" id="meat">Meat Types</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-<!--                        <p><b>Tacos:</b>Comes with onion and fresh cilantro.</p>-->
-<!--                        <p><b>Tacos de Canasta:</b>Come with your choice of beans,-->
-<!--                            Chorizo with Potato, and Chicharron Aprensado. With a side of curtido-->
-<!--                            (cabbage,onion,carrots and chile).</p>-->
-<!--                        <p><b>Huaraches:</b> Come with your choice of meat, beans,-->
-<!--                            lettuce, sour cream, and cheese.</p>-->
-<!--                        <p><b>Tortas:</b> Comes with your choice of meat, beans,-->
-<!--                            lettuce, tomato, avocado, and toasted Oxaca cheese.</p>-->
-<!--                        <p><b>Pambasos:</b> Comes with your choice of meat, lettuce,-->
-<!--                            sour cream, and cheese.</p>-->
-<!--                        <p><b>Burritos:</b> Comes with your choice of meat, beans,-->
-<!--                            lettuce, and cheese.</p>-->
-<!--                        <p><b>Quesadilla:</b> Comes with your choice of meat,-->
-<!--                            cheese and a side salad with avocado, tomato.</p>-->
+                        <p><b>Asada - Stake:</b> Carne asada is sirloin steak sliced, cooked with a
+                            marinade and some searing to impart a charred flavor.</p>
+                        <p><b>Al pastor - Marinated Pork:</b>Al pastor is a tender slice of pork cut
+                            in small pieces. its pork is marinate with spices and other ingredients.</p>
+                        <p><b>Chorizo:</b>Chorizo is a home made chorizo,
+                            mixture of chopped pork meat and spices.</p>
+                        <p><b>Birria - Slow Cook Beef:</b>Birria is slow
+                            cook beef with chile and spices.</p>
+                        <p><b>Milanesa - Breaded Steak:</b>Milanesa is a
+                            breaded steak with spices.</p>
+                        <p><b>Pierna - Ham:</b>Pierna is smoke ham.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -280,29 +237,68 @@
         </div>
     </section>
     <section>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#menu">
             Menu Price
         </button>
 
         <!-- Modal -->
-        <div class="modal fade" tabindex="-1"
+        <div class="modal fade" id="menu" data-backdrop="static" data-keyboard="false" tabindex="-1"
              aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Menu Price</h5>
+                        <h5 class="modal-title" id="menu">Menu Price</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-<!--                        <p><b>4 Tacos</b> $8.00, <b>4 tacos Of Tripas</b> $9.00</p>-->
-<!--                        <p><b>Huaraches</b> sm $8.00 md $10.00 lg $12.00</p>-->
-<!--                        <p><b>Tortas</b> $8.00 <b>Torta Cubana</b> $10.00 </p>-->
-<!--                        <p><b>Pambasos</b> $8.00</p>-->
-<!--                        <p><b>Burritos</b> $8.00</p>-->
-<!--                        <p><b>Quesadillas With meet</b> $8.00 <br><b>Cheese-->
-<!--                            Quesadillas</b> $5.00</p>-->
+                        <p><b>Tacos:</b>Comes with onion and fresh cilantro.</p>
+                        <p><b>Tacos de Canasta:</b>Come with your choice of beans,
+                            Chorizo with Potato, and Chicharron Aprensado. With a side of curtido
+                            (cabbage,onion,carrots and chile).</p>
+                        <p><b>Huaraches:</b> Come with your choice of meat, beans,
+                            lettuce, sour cream, and cheese.</p>
+                        <p><b>Tortas:</b> Comes with your choice of meat, beans,
+                            lettuce, tomato, avocado, and toasted Oxaca cheese.</p>
+                        <p><b>Pambasos:</b> Comes with your choice of meat, lettuce,
+                            sour cream, and cheese.</p>
+                        <p><b>Burritos:</b> Comes with your choice of meat, beans,
+                            lettuce, and cheese.</p>
+                        <p><b>Quesadilla:</b> Comes with your choice of meat,
+                            cheese and a side salad with avocado, tomato.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#menuPrice">
+            Menu Price
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="menuPrice" data-backdrop="static" data-keyboard="false" tabindex="-1"
+             aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="menuPrice">Menu Price</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p><b>4 Tacos</b> $8.00, <b>4 tacos Of Tripas</b> $9.00</p>
+                        <p><b>Huaraches</b> sm $8.00 md $10.00 lg $12.00</p>
+                        <p><b>Tortas</b> $8.00 <b>Torta Cubana</b> $10.00 </p>
+                        <p><b>Pambasos</b> $8.00</p>
+                        <p><b>Burritos</b> $8.00</p>
+                        <p><b>Quesadillas With meet</b> $8.00 <br><b>Cheese
+                            Quesadillas</b> $5.00</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
