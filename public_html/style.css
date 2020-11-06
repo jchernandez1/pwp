@@ -1,5 +1,5 @@
 /*!*================header information================*!*/
-.center{
+.badge-*{
     text-align: center;
 }
 h1{
@@ -32,28 +32,24 @@ h1{
     width: 300px;
     height: 250px;
 }
-#huarache{
-    width: 300px;
-    height: 250px;
-}
+
 #asada-tacos{
     width: 300px;
     height: 250px;
 }
 /*!*================information of product================*!*/
-#menu{
-    margin-top: .5em;
+#step1Menu{
+    margin-top: 2em;
 }
-.col{
-    padding: 1em;
+#step1{
+    color: #004500;
 }
-li{
-    text-shadow: 0 -1px 4px #ffffff, 0 -2px 10px #92e53c, 0 -10px 20px #47941b, 0 -18px 40px #030503;
+
+#step3Topping{
+    color: #8b0000;
 }
 /*!*================logo================*!*/
 #logo {
-    width: 200px;
-    height: 250px;
     margin:5px;
     display: flex;
     justify-content:center;
@@ -76,33 +72,24 @@ li{
 h2 {
     font-size:20px
 }
-#step1{
-    color: #004500;
-}
-#step3{
-    color: black;
-}
-#step3{
-    color: #8b0000;
+
+#modal{
+    margin-bottom: 2em;
 }
 /*================maps and location================*/
 #map{
-    margin:4em 0em 1em 0em;
-
-    width: 370px;
+    width:330px ;
     height: 350px;
+    margin:2em 0em 2em 0em;
     webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
     box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
-
 }
 #map2{
-    margin: 2em 0em 1em 0em;
-
-    width: 370px;
+    width:330px ;
     height: 350px;
+    margin: 2em 0em 2em 0em;
     webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
     box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
-
 }
 /*================ contact information ================*/
 .form-wrapper {
@@ -127,10 +114,12 @@ footer {
 }
 
 /*================ background color ================*/
-body{
-    background: linear-gradient(-50deg, #8B0000, #d0c4c4, #204701);
+body {
+    background: #035900;
+    background: -moz-linear-gradient(-45deg, #035900 0%, #D1D1D1 18%, #8A0000 100%);
+    background: -webkit-linear-gradient(-45deg, #035900 0%, #D1D1D1 18%, #8A0000 100%);
+    background: linear-gradient(135deg, #035900 0%, #D1D1D1 18%, #8A0000 100%);
 }
-
 
 
 
